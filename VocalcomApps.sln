@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudiosWhatsapp", "AudiosWhatsapp\AudiosWhatsapp.csproj", "{846BFBCD-06FF-4DA7-B97F-CA2E781750DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecorder", "AudioRecorder\AudioRecorder.csproj", "{6BF8F9A1-25B0-4102-841E-917B9225CD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{846BFBCD-06FF-4DA7-B97F-CA2E781750DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846BFBCD-06FF-4DA7-B97F-CA2E781750DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846BFBCD-06FF-4DA7-B97F-CA2E781750DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846BFBCD-06FF-4DA7-B97F-CA2E781750DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF8F9A1-25B0-4102-841E-917B9225CD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF8F9A1-25B0-4102-841E-917B9225CD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF8F9A1-25B0-4102-841E-917B9225CD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF8F9A1-25B0-4102-841E-917B9225CD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3AAFD0-E4B5-4CA1-B565-DCF07C3ECEF4}
+	EndGlobalSection
+EndGlobal

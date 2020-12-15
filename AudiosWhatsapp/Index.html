@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WhatsApp Audios</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body class="element-container">
+
+    <div class="header">
+        <div class="header-left">
+            <img class="logo" src="img/logo_white.png" />
+        </div>
+        <div class="header-right">
+            <span>WHATSAPP AUDIOS</span>
+        </div>
+    </div>
+    <div class="center">
+        <div class="row">
+            <input type="image" class="imageButton" id="recordButton" src="img/microphone.svg" />
+            <input type="image" class="imageButton" id="playButton" src="img/play.svg" />
+            <input type="image" class="imageButton" id="pauseButton" src="img/pause.svg" />
+            <input type="image" class="imageButton" id="stopButton" src="img/stop.svg" />
+        </div>
+        <div class="records">
+            <ol id="recordingsList"></ol>
+        </div>
+    </div>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
